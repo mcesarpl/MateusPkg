@@ -1,0 +1,11 @@
+[Defines]
+    DEC_SPECIFICATION             = 0x00010005
+    PACKAGE_NAME                  = MateusPkg
+    PACKAGE_GUID                  = 8a31c4df-e87a-483c-a624-81c5078fe23b
+    PACKAGE_VERSION               = 0.01
+
+[Includes]
+
+[Guids]
+
+[Protocols]

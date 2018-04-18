@@ -1,0 +1,22 @@
+[Defines]
+    INF_VERSION               = 0x00010006
+    BASE_NAME                 = HelloUefi   
+    FILE_GUID                 = f7159ff9-c746-4884-ad12-360e7152720b
+    MODULE_TYPE               = UEFI_APPLICATION
+    VERSION_STRING            = 1.0
+    ENTRY_POINT               = UefiMain
+
+[Sources]
+    HelloUefi.c
+
+[Packages]
+    MdePkg/MdePkg.dec
+    MateusPkg/MateusPkg.dec
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+
+[Protocols]
+
+[Guids]
